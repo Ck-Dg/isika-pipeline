@@ -21,7 +21,7 @@ const server = app.listen(
   )
 );
 
-app.get("/", (req, res) => res.send("API Running v2"));
+app.get("/", (req, res) => res.send("Welcome to GameON!!!"));
 
 // Handle unhandled promise rejections
 process.on("unhandledRejection", (err, promise) => {
